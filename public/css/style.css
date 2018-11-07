@@ -8,13 +8,19 @@
     width: 40%;
     padding-top: 10px;
     padding-bottom: 30px;
-    margin: auto;
-    border: 1px red solid;
+    margin: 20px auto 0 auto;
     text-align: center;
+    background-color: whitesmoke;
+    color: #333;
 }
 
-button {
-    outline: none;
+#container:hover {
+    background-color: green;
+    color: white;
+}
+
+#title {
+    padding-top: 15px;
 }
 
 td {
@@ -67,3 +73,25 @@ table tr td:last-child {
     color: white;
     font-size: 2em;
 }
+
+#button-container {
+    width: 50%;
+    height: 50px;
+    margin: 400px auto 0 auto;
+    text-align: center;
+}
+
+button {
+    outline: none;
+    width: 130px;
+    height: 50px;
+    font-size: 30px;
+    padding: 0 5px 0 5px;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
